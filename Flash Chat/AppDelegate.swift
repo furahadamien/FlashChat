@@ -10,6 +10,7 @@ import UIKit
 import Firebase
 
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -20,9 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //TODO: Initialise and Configure your Firebase here:
         FirebaseApp.configure()
-        
-        let myDtaBase = Database.database().reference()
-        myDtaBase.setValue("We have got data")
+//
+//        let myDtaBase = Database.database().reference()
+//        myDtaBase.setValue("We have got data")
         
         return true
     }
